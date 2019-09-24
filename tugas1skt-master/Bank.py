@@ -4,7 +4,7 @@ user = {
     "saldo": 50000
 }
 marketplace = {
-    "nama":"Tokotokoan",
+    "nama":"TokoFulsa",
     "saldo": 5000000
 }
 

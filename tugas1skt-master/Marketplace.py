@@ -10,7 +10,7 @@ class Marketplace(object):
         print (c.transfer(amount))
         global saldoAwal
         saldoAwal = saldoAwal + amount
-        return "TopUp berhasil ditambahkan Rp. %s" % saldoAwal
+        return "Top Up berhasil ditambahkan Rp. %s" % saldoAwal
 
 s = zerorpc.Server(Marketplace())
 s.bind("tcp://0.0.0.0:10000")
